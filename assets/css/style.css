@@ -1,10 +1,8 @@
 /* globaal */
 ::-webkit-scrollbar{
-    width: 20px;
+    width: 0px;
 }
-::-webkit-scrollbar-track{
-    background-color: #0099ff;
-}
+
 a{
     text-decoration: none;
 }
@@ -197,12 +195,11 @@ body{
 }
 @media (max-width:767px){
     .home-info h4{
-        font-size: 18px;
-        text-align: center;
-        
+        font-size: 20px;
+        margin-left: 50px;
     }
     .home-info h1{
-        font-size: 30px;
+        font-size: 80px;
         justify-content: center;        
     }
     .img-home{
@@ -513,7 +510,18 @@ body{
     .contact-info i{
         display: none;
     }
-}
+    #projects {
+        width: 100%;
+        padding: 0;
+    }
+    #projects .container{
+        width: 100%;
+        padding: 0;
+    }
+    .about-img{
+        display: none;
+    }
+    }
 /* contacts end */
 #contacts a{
     color: white;
