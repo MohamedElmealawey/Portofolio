@@ -253,6 +253,7 @@ body{
 }
 @media (max-width:767px){
     .main-title{
+        text-align: center;
         padding: 5px 10px;
         font-size: 10px !important;
         margin-top: 0 !important;
@@ -398,11 +399,6 @@ body{
     }
 }
 
-@media (max-width:767px){
-    #about img{
-        display: none;
-    }
-}
 /* about end */
 /* projects */
 
@@ -460,17 +456,19 @@ body{
 .port-item i{
     color: #0099ff;
 }
-@media (max-width:767px){
-    .port-item i{
-        font-size: 24px !important;
-    }
-    .port-item h1{
-        font-size: 20px;
-    }
-    .port-item img{
-        height: 150px;
-        width: 100%;
-    }
+#projects .container{
+    width: 100%;
+    padding: 2rem;
+}
+#projects .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0rem;
+}
+#projects .container .row .col{
+    flex: 1 1 30rem;
 }
 .visit-icon{
     position: absolute;
